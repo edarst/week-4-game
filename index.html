@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script type="text/javascript" src="javascript/javascript.js"></script>
+</head>
+<body>
+	<div class="jumbotron">
+		<h1>Crystal Collector</h1>
+	</div>
+	<div class="instructions">
+		<h3>How to Play</h3>
+		</br>
+		<ol>
+			<li>Receive a random number to begin. <span>"PLACEHOLDER"</span></li>
+			<ul>
+				<li id="orange">Orange</li>
+				<li id="blue">Blue</li>
+				<li id="purple">Purple</li>
+				<li id="green">Green</li>
+			</ul>
+			<li>Click gems to get your number to match the displayed number.</li>
+		</ol>
+	</div>
+	<div class="numberToMatch">
+		<h2>Number to Match:
+			<span id="randomNumber"></span>
+		</h2>
+	</div>
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id="numberWins"></span>
+			</br>
+			Losses: 
+			<span id="numberLosses"></span>
+		</h2>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-body">
+		<img src="assets/images/orange.jpg" class=gemPic id="one" alt="Orange Gem">
+		<img src="assets/images/blue.jpg" class=gemPic id="two" alt="Blue Gem">
+		<img src="assets/images/purple.jpg" class=gemPic id= "three" alt="Purple Gem">
+		<img src="assets/images/green.jpg" class=gemPic id= "four" alt="Green Gem">
+		</div>
+	</div>
+	<div class="userTotal">
+		<h2>Your total score is:
+			<span id="finalScore"></span>
+		</h2>
+</body>
+</html>
